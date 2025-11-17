@@ -28,7 +28,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
         <h3 className="product-name">{product.name}</h3>
         <p className="product-description">{product.description}</p>
         <div className="product-footer">
-          <span className="product-price">${product.price.toFixed(2)}</span>
+          <span className="product-price">Rs.{product.price.toFixed(2)}</span>
           <button
             className="add-btn"
             onClick={() => onAddToCart(product)}
