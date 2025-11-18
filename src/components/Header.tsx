@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ cartCount, onSearch }) => {
     <header className="header">
       <div className="header-container">
         <div className="header-logo">
-          <h1>🛍️ ShopHub</h1>
+          <h1>🛍️ Aahaas Ecommerce</h1>
         </div>
 
         <nav className={`nav ${mobileMenuOpen ? 'active' : ''}`}>
