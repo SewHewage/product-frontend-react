@@ -31,19 +31,8 @@ src/services/api.ts
 2. **Add your backend API URL**
 
 ```typescript
-const API_BASE_URL = "http://localhost:8000/api";
-```
+const API_BASE_URL = 'https://eclass.skytechsl.com/backend/product-api-laravel1/public/api';
 
-**If you are using .env file:**
-
-Create a `.env` file in the project root:
-```
-VITE_API_URL=http://localhost:8000/api
-```
-
-Then update your API configuration to use the environment variable:
-```typescript
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
 ```
 
 3. **Start the development server**
