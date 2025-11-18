@@ -42,3 +42,6 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
+4. **Demostration Video link**
+The video will be available at `https://drive.google.com/file/d/1B2RLk38QdpUxwQJqC7tsh_GVwj7EXPzg/view?usp=sharing`
+
